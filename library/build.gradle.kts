@@ -100,7 +100,8 @@ kotlin {
 
 // ========== MAVEN CENTRAL PUBLISHING ==========
 
-val dokkaHtmlTask = tasks.named("dokkaHtml")
+// Use Dokka V2 task
+val dokkaHtmlTask = tasks.named("dokkaGenerateHtml")
 
 publishing {
     publications.withType<MavenPublication> {
