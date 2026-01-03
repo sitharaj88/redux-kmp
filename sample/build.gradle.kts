@@ -10,7 +10,7 @@ kotlin {
     
     // ========== ANDROID (using new Android-KMP plugin) ==========
     androidLibrary {
-        namespace = "com.sitharaj.reduxkmp.sample"
+        namespace = "in.sitharaj.reduxkmp.sample"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
         
@@ -76,6 +76,7 @@ kotlin {
         val desktopMain by getting {
             dependencies {
                 implementation(compose.desktop.currentOs)
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.10.2") // Version matches core
             }
         }
         
@@ -87,7 +88,7 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "com.sitharaj.reduxkmp.sample.MainKt"
+        mainClass = "in.sitharaj.reduxkmp.sample.MainKt" // Fixed package name
         
         nativeDistributions {
             targetFormats(

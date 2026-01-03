@@ -36,7 +36,7 @@ A **Kotlin Multiplatform Redux library** with modern Redux Toolkit features, typ
 ```kotlin
 // build.gradle.kts
 dependencies {
-    implementation("com.sitharaj:redux-kmp:1.0.0")
+    implementation("in.sitharaj:redux-kmp:1.0.0")
 }
 ```
 
@@ -212,7 +212,7 @@ store.dispatch(counterSlice.actions.invoke("increment"))
 ## 📁 Library Structure
 
 ```
-library/src/commonMain/kotlin/com/sitharaj/reduxkmp/
+library/src/commonMain/kotlin/in/sitharaj/reduxkmp/
 ├── core/
 │   ├── Action.kt            # Base action interface
 │   ├── State.kt             # Base state interface
@@ -300,12 +300,12 @@ You may obtain a copy of the License at
 
 ## ☕ Support
 
-<a href="https://buymeacoffee.com/sitharaj88" target="_blank">
+<a href="https://buymeacoffee.in/sitharaj88" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
 </a>
 
 ## 🔗 Links
 
 - **Documentation**: [sitharaj88.github.io/redux-kmp](https://sitharaj88.github.io/redux-kmp)
-- **GitHub**: [github.com/sitharaj88/redux-kmp](https://github.com/sitharaj88/redux-kmp)
-- **Author**: [Sitharaj Seenivasan](https://github.com/sitharaj88)
+- **GitHub**: [github.in/sitharaj88/redux-kmp](https://github.in/sitharaj88/redux-kmp)
+- **Author**: [Sitharaj Seenivasan](https://github.in/sitharaj88)

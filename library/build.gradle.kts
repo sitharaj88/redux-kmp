@@ -29,7 +29,7 @@ kotlin {
     
     // ========== ANDROID (using new Android-KMP plugin) ==========
     androidLibrary {
-        namespace = project.findProperty("LIBRARY_PACKAGE") as? String ?: "com.sitharaj.reduxkmp"
+        namespace = project.findProperty("LIBRARY_PACKAGE") as? String ?: "in.sitharaj.reduxkmp"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
         
@@ -118,7 +118,7 @@ publishing {
             // CUSTOMIZE: Update these for your library
             name.set(project.findProperty("LIBRARY_NAME") as? String ?: "MyLibrary")
             description.set("A Kotlin Multiplatform library")
-            url.set("https://github.com/sitharaj88/${libraryArtifactId}-kmp")
+            url.set("https://github.in/sitharaj88/${libraryArtifactId}-kmp")
             
             licenses {
                 license {
@@ -136,9 +136,9 @@ publishing {
             }
             
             scm {
-                url.set("https://github.com/sitharaj88/${libraryArtifactId}-kmp")
-                connection.set("scm:git:git://github.com/sitharaj88/${libraryArtifactId}-kmp.git")
-                developerConnection.set("scm:git:ssh://git@github.com/sitharaj88/${libraryArtifactId}-kmp.git")
+                url.set("https://github.in/sitharaj88/${libraryArtifactId}-kmp")
+                connection.set("scm:git:git://github.in/sitharaj88/${libraryArtifactId}-kmp.git")
+                developerConnection.set("scm:git:ssh://git@github.in/sitharaj88/${libraryArtifactId}-kmp.git")
             }
         }
     }
