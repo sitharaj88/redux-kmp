@@ -257,7 +257,7 @@ The sample app demonstrates all Redux features in a **Chat Application**:
 
 ## 📚 Documentation
 
-- **[Documentation Site](https://sitharaj88.github.io/reduxkmp)** - Full API docs and tutorials
+- **[Documentation Site](https://sitharaj88.github.io/redux-kmp)** - Full API docs and tutorials
 - **[GPG Setup Guide](GPG_SETUP.md)** - Maven Central signing
 
 ```bash
@@ -306,6 +306,6 @@ You may obtain a copy of the License at
 
 ## 🔗 Links
 
-- **Documentation**: [sitharaj88.github.io/reduxkmp](https://sitharaj88.github.io/reduxkmp)
-- **GitHub**: [github.com/sitharaj88/reduxkmp](https://github.com/sitharaj88/reduxkmp)
+- **Documentation**: [sitharaj88.github.io/redux-kmp](https://sitharaj88.github.io/redux-kmp)
+- **GitHub**: [github.com/sitharaj88/redux-kmp](https://github.com/sitharaj88/redux-kmp)
 - **Author**: [Sitharaj Seenivasan](https://github.com/sitharaj88)

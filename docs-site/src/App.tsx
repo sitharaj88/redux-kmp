@@ -112,7 +112,7 @@ function App() {
                                     {isDark ? <Moon className="w-4 h-4 text-white" /> : <Sun className="w-4 h-4 text-white" />}
                                 </div>
                             </button>
-                            <a href="https://github.com/sitharaj88/kmp-starter" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 btn-secondary text-sm">
+                            <a href="https://github.com/sitharaj88/redux-kmp" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 btn-secondary text-sm">
                                 <Github className="w-4 h-4" /> GitHub
                             </a>
                             <button className="lg:hidden p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} style={{ color: 'var(--text-primary)' }}>
@@ -163,7 +163,7 @@ function App() {
                             <BookOpen className="w-5 h-5" /> Get Started
                             <ChevronDown className="w-4 h-4 opacity-50" />
                         </a>
-                        <a href="https://github.com/sitharaj88/kmp-starter" target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center justify-center gap-2 px-8 py-4 text-lg">
+                        <a href="https://github.com/sitharaj88/redux-kmp" target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center justify-center gap-2 px-8 py-4 text-lg">
                             <Github className="w-5 h-5" /> View on GitHub
                             <ExternalLink className="w-4 h-4 opacity-50" />
                         </a>
@@ -715,7 +715,7 @@ open iosApp/iosApp.xcodeproj
                         Get started with type-safe state management for Kotlin Multiplatform today.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="https://github.com/sitharaj88/kmp-starter" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center justify-center gap-3 px-10 py-5 text-lg">
+                        <a href="https://github.com/sitharaj88/redux-kmp" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center justify-center gap-3 px-10 py-5 text-lg">
                             <Github className="w-6 h-6" /> Get Started
                         </a>
                     </div>
@@ -734,7 +734,7 @@ open iosApp/iosApp.xcodeproj
                     <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
                         Built with ❤️ by <a href="https://github.com/sitharaj88" className="underline hover:no-underline" style={{ color: 'var(--accent)' }}>Sitharaj</a>
                     </p>
-                    <a href="https://github.com/sitharaj88/kmp-starter" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'var(--text-muted)' }}>
+                    <a href="https://github.com/sitharaj88/redux-kmp" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'var(--text-muted)' }}>
                         <Github className="w-6 h-6" />
                     </a>
                 </div>
