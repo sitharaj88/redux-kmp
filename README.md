@@ -212,7 +212,7 @@ store.dispatch(counterSlice.actions.invoke("increment"))
 ## 📁 Library Structure
 
 ```
-library/src/commonMain/kotlin/in/sitharaj/reduxkmp/
+redux-kmp/src/commonMain/kotlin/in/sitharaj/reduxkmp/
 ├── core/
 │   ├── Action.kt            # Base action interface
 │   ├── State.kt             # Base state interface
@@ -270,20 +270,20 @@ npm run dev
 ## 🧪 Testing
 
 ```bash
-./gradlew :library:check           # All tests
-./gradlew :library:desktopTest     # Desktop
-./gradlew :library:jsTest          # JavaScript
-./gradlew :library:iosSimulatorArm64Test  # iOS
+./gradlew :redux-kmp:check           # All tests
+./gradlew :redux-kmp:desktopTest     # Desktop
+./gradlew :redux-kmp:jsTest          # JavaScript
+./gradlew :redux-kmp:iosSimulatorArm64Test  # iOS
 ```
 
 ## 📤 Publishing
 
 ```bash
 # Publish to local Maven
-./gradlew :library:publishToMavenLocal
+./gradlew :redux-kmp:publishToMavenLocal
 
 # Create signed bundle for Maven Central
-./gradlew :library:zipBundle
+./gradlew :redux-kmp:zipBundle
 ```
 
 ## 📄 License
@@ -300,12 +300,12 @@ You may obtain a copy of the License at
 
 ## ☕ Support
 
-<a href="https://buymeacoffee.in/sitharaj88" target="_blank">
+<a href="https://buymeacoffee.com/sitharaj88" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
 </a>
 
 ## 🔗 Links
 
 - **Documentation**: [sitharaj88.github.io/redux-kmp](https://sitharaj88.github.io/redux-kmp)
-- **GitHub**: [github.in/sitharaj88/redux-kmp](https://github.in/sitharaj88/redux-kmp)
-- **Author**: [Sitharaj Seenivasan](https://github.in/sitharaj88)
+- **GitHub**: [github.com/sitharaj88/redux-kmp](https://github.com/sitharaj88/redux-kmp)
+- **Author**: [Sitharaj Seenivasan](https://github.com/sitharaj88)

@@ -12,10 +12,11 @@ plugins {
 }
 
 val libraryVersion: String = project.findProperty("VERSION_NAME") as? String ?: "1.0.0"
-val libraryArtifactId: String = project.findProperty("POM_ARTIFACT_ID") as? String ?: "library"
+val libraryArtifactId: String = project.findProperty("POM_ARTIFACT_ID") as? String ?: "redux-kmp"
 
-group = project.findProperty("GROUP") as? String ?: "com.example"
+group = project.findProperty("GROUP") as? String ?: "in.sitharaj"
 version = libraryVersion
+setProperty("archivesBaseName", libraryArtifactId)
 
 kotlin {
     explicitApi()
@@ -115,10 +116,9 @@ publishing {
         artifact(javadocJarTask)
         
         pom {
-            // CUSTOMIZE: Update these for your library
-            name.set(project.findProperty("LIBRARY_NAME") as? String ?: "MyLibrary")
-            description.set("A Kotlin Multiplatform library")
-            url.set("https://github.in/sitharaj88/${libraryArtifactId}-kmp")
+            name.set("Redux KMP")
+            description.set("A predictable state container for Kotlin Multiplatform (Android, iOS, Desktop, Web), featuring Redux Toolkit and Middleware.")
+            url.set("https://github.com/sitharaj88/redux-kmp")
             
             licenses {
                 license {
@@ -136,9 +136,9 @@ publishing {
             }
             
             scm {
-                url.set("https://github.in/sitharaj88/${libraryArtifactId}-kmp")
-                connection.set("scm:git:git://github.in/sitharaj88/${libraryArtifactId}-kmp.git")
-                developerConnection.set("scm:git:ssh://git@github.in/sitharaj88/${libraryArtifactId}-kmp.git")
+                url.set("https://github.com/sitharaj88/redux-kmp")
+                connection.set("scm:git:git://github.com/sitharaj88/redux-kmp.git")
+                developerConnection.set("scm:git:ssh://git@github.com/sitharaj88/redux-kmp.git")
             }
         }
     }

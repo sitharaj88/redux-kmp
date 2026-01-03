@@ -65,7 +65,8 @@ kotlin {
             implementation(compose.materialIconsExtended)
             implementation(compose.ui)
             implementation(compose.components.resources)
-            implementation(project(":library"))
+            implementation(compose.components.uiToolingPreview)
+            implementation(project(":redux-kmp"))
         }
         
         androidMain.dependencies {

@@ -18,6 +18,6 @@ dependencyResolutionManagement {
 // ============================================
 rootProject.name = "reduxkmp-kmp"
 
-include(":library")
+include(":redux-kmp")
 include(":sample")
 include(":androidApp")
