@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
 
                         {/* Real "Buy Me A Coffee" Button */}
                         <a
-                            href="https://buymeacoffee.com/sitharaj"
+                            href="https://buymeacoffee.com/sitharaj88"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 bg-[#FFDD00] text-black px-4 py-2 rounded-full font-bold font-[Poppins,sans-serif] text-sm transition-transform hover:scale-105 hover:shadow-lg hover:shadow-yellow-500/20"
