@@ -28,6 +28,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.sitharaj.reduxkmp.sample.chat.*
 import com.sitharaj.reduxkmp.sample.chat.messages.FetchChatHistoryThunk
+import com.sitharaj.reduxkmp.sample.chat.messages.MessagesAction
+import com.sitharaj.reduxkmp.sample.chat.messages.SendMessageThunk
+import com.sitharaj.reduxkmp.sample.chat.messages.currentTimeMillis
 import com.sitharaj.reduxkmp.sample.chat.messages.SendMessageThunk
 import kotlinx.coroutines.launch
 
@@ -472,8 +475,11 @@ fun ChatInput(
     }
 }
 
+
+
+
 private fun formatTime(timestamp: Long): String {
-    val now = System.currentTimeMillis()
+    val now = currentTimeMillis()
     val diff = now - timestamp
     
     return when {

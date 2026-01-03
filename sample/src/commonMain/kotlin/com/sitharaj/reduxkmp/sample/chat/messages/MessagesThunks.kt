@@ -21,12 +21,12 @@ class SendMessageThunk(
     
     override suspend fun execute(dispatch: Dispatcher, getState: GetState<ChatState>) {
         // Create optimistic message
-        val messageId = "msg_${System.currentTimeMillis()}"
+        val messageId = "msg_${currentTimeMillis()}"
         val message = Message(
             id = messageId,
             content = content,
             senderId = senderId,
-            timestamp = System.currentTimeMillis(),
+            timestamp = currentTimeMillis(),
             status = MessageStatus.SENDING
         )
         
@@ -79,7 +79,7 @@ class FetchChatHistoryThunk : ThunkAction<ChatState> {
     }
     
     private fun generateSampleMessages(): List<Message> {
-        val baseTime = System.currentTimeMillis() - 3600000 // 1 hour ago
+        val baseTime = currentTimeMillis() - 3600000 // 1 hour ago
         
         return listOf(
             Message(
@@ -127,4 +127,4 @@ class FetchChatHistoryThunk : ThunkAction<ChatState> {
 }
 
 // Helper for getting current time (platform-specific)
-internal expect fun currentTimeMillis(): Long
+expect fun currentTimeMillis(): Long

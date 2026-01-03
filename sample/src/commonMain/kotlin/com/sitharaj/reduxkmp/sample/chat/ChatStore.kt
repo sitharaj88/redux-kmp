@@ -84,10 +84,10 @@ object ChatStoreProvider {
                     )
                     
                     val replyMessage = Message(
-                        id = "msg_reply_${System.currentTimeMillis()}",
+                        id = "msg_reply_${com.sitharaj.reduxkmp.sample.chat.messages.currentTimeMillis()}",
                         content = replies.random(),
                         senderId = listOf("user_alice", "user_bob").random(),
-                        timestamp = System.currentTimeMillis(),
+                        timestamp = com.sitharaj.reduxkmp.sample.chat.messages.currentTimeMillis(),
                         isRead = false,
                         status = MessageStatus.DELIVERED
                     )
