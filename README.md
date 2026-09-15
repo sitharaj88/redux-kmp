@@ -36,7 +36,7 @@ A **Kotlin Multiplatform Redux library** with modern Redux Toolkit features, typ
 ```kotlin
 // build.gradle.kts
 dependencies {
-    implementation("in.sitharaj:redux-kmp:1.0.0")
+    implementation("in.sitharaj.reduxkmp:redux-kmp:1.0.0")
 }
 ```
 
